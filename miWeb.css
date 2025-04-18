@@ -1,0 +1,166 @@
+*{ /*personalizacion global de la pagina*/
+    margin: 0; 
+    padding: 0; 
+}
+
+body{  /*personalización del body */
+    background-image: url(imagenes/pexels-sohi-807598.jpg); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    font-family: "century gothic";
+}
+
+p{ /*personalizacion de los parrafos de la pagina */
+    color: aliceblue; 
+    margin-top: 10px; 
+    margin-left: 20px;      
+    margin-right: 20px; 
+}
+
+h1{ /*personalizacion de los titulos h1 de la pagina */
+    color: aliceblue; 
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+h2{/*personalizacion de los titulos h2 de la pagina */
+    margin-top: 10px;
+    color: aliceblue; 
+    background-color: #1a6d2d; 
+    padding: 15px; 
+    margin-left: 20px; 
+    margin-right: 20px;
+}
+
+dt{/*personalizacion de los términos de la pagina */
+    color: blanchedalmond; 
+    margin-top: 10px;
+    background-color: green; 
+    padding: 7px; 
+    margin-left: 20px; /*margenes */ 
+    margin-right: 20px; 
+}
+dd{ /*personalizacion de las definiciones  de la pagina */
+    color: antiquewhite; 
+    background-color: #59c272; 
+    padding: 10px; 
+    margin-left: 20px; /*margenes */ 
+    margin-right: 20px; 
+}
+
+ul{ /*personalizacion de las listas desordenadas   de la pagina */
+    margin-left: 20px; 
+    margin-right: 20px; 
+}
+
+
+
+#listavertical{/*personalizacion de la lista desordenada del apartado cuidados */
+    background-color: #1a6d2d; 
+    color: aliceblue; 
+    list-style-type: circle;
+    margin-top: 20px;  /*margenes */ 
+    margin-left: 20px; 
+}
+
+header{/*personalizacion de la cabecera */
+    color: aliceblue; 
+    text-align: center;
+    background-color: #59c272; 
+    width: 100%; 
+    padding: 6px;
+}
+
+
+footer{ /*personalizacion del pie de la pagina */
+    background-color: #59c272; 
+    color: white; 
+    text-align: center; /*Ajusta el texto al centro*/
+    position: fixed;
+    width: 100%; 
+    bottom: 0; 
+    
+ 
+}
+
+nav{ /*personalizacion de la barra de navegación*/
+    margin-top: 5px; /*espaciado de la barra de navegacion*/
+    position: fixed; 
+    top: 0; /*para que suba hasta arriba */ 
+    right: 0; /*para que se alinee a la derecha*/
+}
+
+nav ul li{ /*personalizacion de los elementos de la lista en una lista desordenada */
+    display: inline-block; /*se distribuye de forma lineal la barra de navegación*/
+    padding: 7px;
+}
+
+nav ul li:hover{ /*personalizacion de la barra de navegacion cuando pasas el cursor por encima cambia de color */
+    background: #23ec77; 
+}
+
+nav ul li a{ /*personalizacion de los elementos de la lista en una lista desordenada */
+    color: #fff; 
+    text-decoration: none; /*elimina el subrayado*/
+}
+
+/*termina la personalizacion de la barra de navegación*/
+
+/*personalizacion de los elementos de la lista con id menu de la parte cuidados */
+ul.menu{
+    margin-top: 15px;
+    background-color:#1a6d2d ;
+    list-style-type: none;
+}
+
+ul.menu li a {  /*personalizacion de los elementos de la lista en una lista desordenada */
+    display: block; /*hace que el enlace ocupe todo el ancho del contenedor*/
+    color: #fff; 
+    text-decoration: none; 
+}
+
+ul.menu li a:hover { /*personalizacion de la barra de navegacion cuando pasas el cursor por encima cambia de color */
+    background: #23ec77; 
+}
+/*termina la personalizacion del menu */
+
+/*personalizacion de id en section de la pagina principal  */
+#introduccion{
+    margin-left: 10px; 
+    margin-top: 17px; 
+}
+/*personalizacion de parrafo con id en apartado de quienes somos */
+#quienessomos{
+    background-color: #59c272; 
+    padding: 15px; 
+    margin-top: 0px; 
+}
+/*personalizacion de imagenes de la pagina principal */
+#gimnos{
+    position: absolute; 
+    margin-left: 200px; 
+}
+/*personalizacion de imagenes de la pagina principal */
+#arboles{
+    position: absolute; 
+    right: 20px; 
+}
+/*personalizacion de imagenes de la pagina principal */
+#angios{
+    margin-left: 30px; 
+}
+/*personalizacion de la tabla de la pagina principal */
+table{
+    background-color: #59c272;
+    color: #fff;
+    margin-top: 10px;
+    margin-left: 20px; 
+    margin-right: 20px; 
+}
+
+th{
+    background-color: #1a6d2d;
+}
+/*termina la personalizacion de la tabla  */
+
+
